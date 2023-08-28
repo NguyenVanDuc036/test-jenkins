@@ -1,0 +1,15 @@
+export const THREAD_MESSAGE = {
+  CREATE_THREAD_SUCCESS: 'Create thread success',
+  GET_ALL_THREAD_SUCCESS: 'Get all thread success',
+  GET_THREAD_BY_ID_SUCCESS: 'Get thread by id success',
+  GET_THREAD_BY_USER_ID_SUCCESS: 'Get thread by user id success',
+  GET_THREAD_BY_HASHTAG_SUCCESS: 'Get thread by hashtag success',
+  DELETE_THREAD_SUCCESS: 'Delete thread success',
+  UPDATE_THREAD_SUCCESS: 'Update thread success',
+  CONTENT_MUST_BE_EMPTY: 'Content must be empty',
+  CONTENT_MUST_BE_NOT_EMPTY: 'Content must be not empty',
+  PARENT_ID_MUST_BE_NOT_EMPTY: 'Parent id must be not empty',
+  THREAD_ID_IS_REQUIRED: 'Thread id is required',
+  DONT_HAVE_PERMISSION: "You don't have permission",
+  NO_THREADS_YET: 'No threads yet',
+};

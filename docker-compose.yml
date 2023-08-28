@@ -1,0 +1,12 @@
+version: "1.0"
+
+services:
+  threader-api:
+    # image: nguyenduc036/threaderx/
+    build: .
+    container_name: threader-api
+    restart: always
+    environment:
+      - PORT=3003
+    ports:
+      - "3003:3003"
