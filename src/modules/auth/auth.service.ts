@@ -61,7 +61,7 @@ export class AuthService extends BaseService<UserDocument> {
     if (!payload.email_verified)
       throw new ExceptionResponse(HttpStatus.BAD_REQUEST, 'Email not verify');
 
-    const user: User = await this.userService.findUserByEmail(payload.email);
+    const user: UserDocument = await this.userService.findUserByEmail(payload.email);
 
     if (user) {
       if (!user.fcm_token.includes(fcm_token)) {
